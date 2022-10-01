@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('./fonts/Roboto-Regular.ttf');
+}
+
+.first__section {
+    background: url('./images/first-section-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.fs-title,
+.fs-title1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 46px;
+}
+
+.fs-title {
+    color: #fff;
+}
+
+.fs-title1 {
+    color: #000;
+}
+
+.fs-subtitle1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #a0a0a0;
+}
+
+.fs-subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.fs-btn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.4px;
+    color: #fff;
+}
+
+.fs-btn1,
+.ic__item button {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.4px;
+}
+
+.inspire__section {
+    padding: 80px 0;
+}
+
+.is__card {
+    display: flex;
+    gap: 26px;
+}
+
+.carousel-item p {
+    color: #a0a0a0;
+}
+
+.fs-btn1 span {
+    background-color: black;
+    height: 9.5px;
+}
+
+.fs-btn1 span:hover {
+    background-color: #00f;
+    transition: all .9s;
+}
+
+.office__section {
+    background: url('./images/Rectangle-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.garage__section {
+    padding: 116px 0 38px 0;
+}
+
+.gs__block--left p {
+    font-size: 16px;
+}
+
+.work__section {
+    padding-bottom: 38px;
+}
+
+.ws__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ws__block--left p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    max-width: 789px;
+    width: 100%;
+}
+
+.ws__block--right {
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.wbr__item {
+    display: flex;
+    gap: 25px;
+}
+
+.join__section {
+    padding: 86px 0 121px 0;
+}
+
+.design__section {
+    padding-bottom: 39px;
+}
+
+.design__section .container {
+    background: #9aa8b1;
+    padding: 120px 0;
+}
+
+.design__section .container .colg-lg-6 {
+    gap: 24px;
+}
+
+.footer__block {
+    gap: 84px;
+}
+
+.fbt--right button {
+    color: #fff;
+    width: 52px;
+    height: 52px;
+    font-size: 15px;
+    padding: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__block--bottom {
+    gap: 37px;
+}
