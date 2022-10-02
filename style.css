@@ -152,21 +152,32 @@
     gap: 24px;
 }
 
-.footer__block {
-    gap: 84px;
+.list-unstyled a {
+    font-size: 22px;
 }
 
-.fbt--right button {
-    color: #fff;
-    width: 52px;
-    height: 52px;
-    font-size: 15px;
-    padding: 38px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer-block input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    width: 320px;
 }
 
-.footer__block--bottom {
-    gap: 37px;
+.footer-block p {
+    max-width: 348px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.go-up {
+    position: fixed;
+    display: inline-block;
+    background: #000;
+    padding: 30px;
+    top: 0;
+    bottom: 0;
+    height: 82px;
+    width: 82px;
 }
