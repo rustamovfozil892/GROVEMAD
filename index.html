@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" href="./images/icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <title>GROVEMADE</title>
 </head>
 
@@ -89,31 +90,29 @@
                     <p class="fs-subtitle1 text-center text-capitalize fw-normal mb-4">See What’s Trending Right Now,
                         so
                         you can get your best work done.</p>
-                    <button style="gap: 10px;" class="fs-btn1 border-0 bg-transparent d-flex justify-content-center">
-                        <span>&#8901;</span>
-                        <span>&#8901;</span>
-                        <span>&#8901;</span>
-                    </button>
                 </div>
             </div>
-            <div id="carouselExa mpleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner d-flex">
-                    <div class="carousel-item active">
-                        <img src="./images/section-card-1.png" class="d-block w-50" alt="">
-                        <p class="d-flex flex-column">Walnut MagSafe Stand <span>$120</span></p>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/section-card.png" class="d-block w-50" alt="">
-                        <p class="d-flex flex-column">Walnut Laptop Riser <span>$150</span></p>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/section-card-2.png" class="d-block w-50" alt="">
-                        <p class="d-flex flex-column">Walnut iPad Stand <span>$80</span></p>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/section-card-3.png" class="d-block w-50" alt="">
-                        <p class="d-flex flex-column">Walnut Monitor Stand <span>$100</span></p>
-                    </div>
+        </section>
+        <section class="products-section">
+            <div class="container">
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img src="./images/section-card-1.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/section-card.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/section-card-2.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/section-card-3.png" alt="">
+                        </div>
+                    </div> flex-wrap
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </section>
@@ -164,8 +163,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row mean-block">
-                <div class="col-lg-12 d-flex justify-content-center gap-4">
+            <div class="row mean-block d-flex flex-column gap-4">
+                <div class="col-lg-12 d-flex justify-content-center gap-4 flex-wrap">
                     <img src="./images/people-1.png" alt="">
                     <img src="./images/people-2.png" alt="">
                     <img src="./images/people-3.png" alt="">
@@ -173,7 +172,7 @@
                     <img src="./images/people-5.png" alt="">
                     <img src="./images/people-6.png" alt="">
                 </div>
-                <div class="col-lg-12 d-flex justify-content-center gap-4">
+                <div class="col-lg-12 d-flex justify-content-center gap-4 flex-wrap">
                     <img src="./images/people-7.png" alt="">
                     <img src="./images/people-8.png" alt="">
                     <img src="./images/people-9.png" alt="">
@@ -181,7 +180,7 @@
                     <img src="./images/people-11.png" alt="">
                     <img src="./images/people-12.png" alt="">
                 </div>
-                <div class="col-lg-12 d-flex justify-content-center gap-4">
+                <div class="col-lg-12 d-flex justify-content-center gap-4 flex-wrap">
                     <img src="./images/people-13.png" alt="">
                     <img src="./images/people-14.png" alt="">
                     <img src="./images/people-15.png" alt="">
@@ -189,7 +188,7 @@
                     <img src="./images/people-17.png" alt="">
                     <img src="./images/people-18.png" alt="">
                 </div>
-                <div class="col-lg-12 d-flex justify-content-center gap-4 ">
+                <div class="col-lg-12 d-flex justify-content-center gap-4 flex-wrap">
                     <img src="./images/people-19.png" alt="">
                     <img src="./images/people-20.png" alt="">
                     <img src="./images/people-21.png" alt="">
@@ -228,7 +227,7 @@
     <footer class="footer d-flex justify-content-between">
         <div class="container">
             <div class="row">
-                <div style="display: flex; gap: 24px;" class="col-lg-8">
+                <div style="display: flex; gap: 24px;" class="col-lg-8 flex-wrap justify-content-center">
                     <ul class="list-unstyled">
                         <li>
                             <a style="font-weight: 500;" class="text-decoration-none text-dark" href="#">Shop</a>
@@ -255,7 +254,7 @@
                                 Sales</a>
                         </li>
                     </ul>
-                    <div class="footer-block">
+                    <div class="footer-block d-flex flex-column">
                         <h5>Newsletter Signup</h5>
                         <p class="text-black-50">Sign up to our Newsletter to hear about new product releases, learn
                             about our design process, and everything else going on behind the scenes at Grovemade.</p>
@@ -264,10 +263,10 @@
                         </form>
                     </div>
                 </div>
-                <a class="go-up text-decoration-none" href="#header">GO UP</a>
+                <a class="footer__btn text-decoration-none text-light" href="#header">GO UP</a>
             </div>
-            <div class="row">
-                <div class="col-lg-6 d-flex gap-5">
+            <div class="row justify-content-end">
+                <div style="gap: 39px;" class="col-lg-6 d-flex flex-wrap justify-content-center">
                     <p class="text-black-50">©2020 Grovemade</p>
                     <p class="text-black-50">Terms & Conditions</p>
                     <p class="text-black-50">Privacy Policy</p>
@@ -279,10 +278,52 @@
 
 
 
+
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
         </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: true,
+            },
+            // Default parameters
+            slidesPerView: 1,
+            spaceBetween: 10,
+            // Responsive breakpoints
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                770: {
+                    slidesPerView: 2,
+                    spaceBetween: 10
+                },
+                1000: {
+                    slidesPerView: 3,
+                    spaceBetween: 10
+                },
+                1350: {
+                    slidesPerView: 4,
+                    spaceBetween: 20
+                }
+            }
+        })
+    </script>
+
 </body>
 
 </html>

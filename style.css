@@ -3,6 +3,10 @@
     src: url('./fonts/Roboto-Regular.ttf');
 }
 
+.navbar {
+    width: 100%;
+}
+
 .first__section {
     background: url('./images/first-section-bg.png');
     background-repeat: no-repeat;
@@ -166,18 +170,93 @@
 }
 
 .footer-block p {
-    max-width: 348px;
     width: 100%;
     font-size: 14px;
 }
 
-.go-up {
+.footer__btn {
     position: fixed;
-    display: inline-block;
+    display: none;
     background: #000;
     padding: 30px;
-    top: 0;
-    bottom: 0;
+    bottom: 25%;
+    right: 10%;
     height: 82px;
-    width: 82px;
+    width: 82px !important;
+}
+
+.footer__btn:hover {
+    background: #aaa;
+    color: #000;
+    transition: all .9s;
+    border: 1px solid #000;
+}
+
+.footer__btn.active {
+    display: inline-block;
+}
+
+.swiper {
+    height: 550px;
+}
+
+.swiper-wrapper {
+    bottom: -10%;
+}
+
+.swiper-pagination {
+    bottom: unset !important;
+    top: 0%;
+}
+
+body {
+    position: relative;
+}
+
+.product-section img {
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+.work__section img {
+    width: 203px;
+}
+
+section {
+    width: 100%;
+}
+
+.swiper img {
+    height: 100%;
+}
+
+@media(max-width:978px) {
+    .work__section .row .colg-lg-12 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container-fluid {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .office__section {
+        margin-top: 230px;
+    }
+}
+
+@media(max-width:321px) {
+    .footer-block {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-block p {
+        width: 100%;
+    }
 }
