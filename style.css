@@ -3,8 +3,19 @@
     src: url('./fonts/Roboto-Regular.ttf');
 }
 
+#navbarSupportedContent {
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 section {
     width: 300px;
+    margin: 0 auto;
 }
 
 .first__section {
@@ -171,7 +182,6 @@ section {
     border-bottom: 1px solid #000;
     outline: none;
     width: 320px;
-    display: none;
 }
 
 .footer-block p {
