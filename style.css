@@ -3,8 +3,8 @@
     src: url('./fonts/Roboto-Regular.ttf');
 }
 
-.navbar {
-    width: 100%;
+section {
+    width: 300px;
 }
 
 .first__section {
@@ -134,6 +134,10 @@
     align-self: center;
 }
 
+.ws__cards {
+    row-gap: 27px;
+}
+
 .wbr__item {
     display: flex;
     gap: 25px;
@@ -152,7 +156,7 @@
     padding: 120px 0;
 }
 
-.design__section .container .colg-lg-6 {
+.design__section .container .col-lg-6 {
     gap: 24px;
 }
 
@@ -167,11 +171,13 @@
     border-bottom: 1px solid #000;
     outline: none;
     width: 320px;
+    display: none;
 }
 
 .footer-block p {
     width: 100%;
     font-size: 14px;
+    text-align: center;
 }
 
 .footer__btn {
@@ -183,6 +189,7 @@
     right: 10%;
     height: 82px;
     width: 82px !important;
+    z-index: 2;
 }
 
 .footer__btn:hover {
@@ -225,27 +232,13 @@ img {
     width: 203px;
 }
 
-section {
-    width: 100%;
-}
-
 .swiper img {
     height: 100%;
 }
 
 @media(max-width:978px) {
-    .work__section .row .colg-lg-12 {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .container-fluid {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
     .office__section {
-        margin-top: 230px;
+        margin-top: 40px;
     }
 }
 
