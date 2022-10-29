@@ -4,11 +4,11 @@ let lastKnownScrollPosition = 0;
 let ticking = false;
 
 function doSomething(scrollPos) {
-    if(scrollPos >= 710){
-        btn.classList.add('active')
-    }else{
-        btn.classList.remove('active')
-    }
+  if (scrollPos >= 710) {
+    btn.classList.add('active')
+  } else {
+    btn.classList.remove('active')
+  }
 }
 
 document.addEventListener('scroll', (e) => {
